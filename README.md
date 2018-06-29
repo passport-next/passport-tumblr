@@ -1,5 +1,11 @@
 # Passport-Tumblr
 
+[![Build Status](https://travis-ci.org/passport-next/passport-tumblr.svg?branch=master)](https://travis-ci.org/passport-next/passport-tumblr)
+[![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-tumblr/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-tumblr?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cfd3cf93fcbb9b44231e/maintainability)](https://codeclimate.com/github/passport-next/passport-tumblr/maintainability)
+[![Dependencies](https://david-dm.org/passport-next/passport-tumblr.png)](https://david-dm.org/passport-next/passport-tumblr)
+<!--[![SAST](https://gitlab.com/passport-next/passport-tumblr/badges/master/build.svg)](https://gitlab.com/passport-next/passport-tumblr/badges/master/build.svg)-->
+
 [Passport](http://passportjs.org/) strategy for authenticating with [Tumblr](https://www.tumblr.com/)
 using the OAuth 1.0a API.
 
@@ -11,7 +17,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install passport-tumblr
+    $ npm install @passport-next/passport-tumblr
 
 ## Usage
 
@@ -61,16 +67,3 @@ For a complete, working example, refer to the [login example](https://github.com
     $ npm install --dev
     $ make test
 
-[![Build Status](https://secure.travis-ci.org/jaredhanson/passport-tumblr.png)](http://travis-ci.org/jaredhanson/passport-tumblr)
-
-## Credits
-
-  - [Jared Hanson](http://github.com/jaredhanson)
-
-## License
-
-[The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2011-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-tumblr'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-tumblr.svg' /></a>
